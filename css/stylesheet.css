@@ -1,0 +1,182 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	margin:0px;
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start of Custom Styles */
+
+
+html {
+	 font-family: "Gill Sans", Gill Sans, sans-serif;
+	 letter-spacing: 0.01rem;
+	 font-size: 16px;
+}
+
+#top-nav {
+	background-color: #0b233b;
+	width:100%;
+	height:8.369%;
+	max-height: 16.738%;
+	min-height:2.76rem;
+	position: fixed;
+	z-index: 9999;
+	
+}
+
+#nav-content {
+	display: -webkit-flex;
+	position: relative;
+	left: 6.25%;
+	height:inherit;
+	right: 93.75%;
+}
+
+#nav-logo {
+	position: relative;
+	top: 0.84375rem;
+	width: 7.5em;
+}
+
+#search-form {
+	position: relative;
+	top: 0.9375rem;
+	padding-left:3.125rem;
+
+}
+
+#search-form > input {
+
+	background: url(css-images/searchIcon.png) 7px;
+	background-size: 0.625rem;
+	background-repeat: no-repeat;
+	background-position: 1.15625rem;
+	font-family: "Gill Sans MT", Gill Sans, sans-serif;
+	width: 18.75rem;
+	height: 1.6875rem;
+	border-radius: 10rem;
+	border-width: 0px;
+	background-color: rgba(25,80,128,0.4);
+	color: rgba(255,255,255,0.8);
+
+}
+
+#search-form > input[type="text"] {
+	font-size: 80%;
+	position: relative;
+	padding-left: 2.375rem;
+}
+
+#search-form > input:hover {
+	background-color: rgba(25,80,128,0.5);
+}
+
+
+#search-form > input[type="text"]:focus {
+	outline: none;
+	color:rgba(255,255,255,0.9);
+	background-color: rgba(25,80,128,0.5);
+}
+
+
+#profile-holder {
+	width: 30.375rem;
+}
+
+#profile-face {
+	float: right;
+	padding-top: 0.90625rem;
+	width:1.875rem;
+
+}
+
+#user-name {
+	padding-top: 1.53125rem;
+	padding-left:0.625rem;
+	color:white;
+	font-size: 86%;
+	font-weight: 400;
+	
+}
+
+.nav-icon img {
+	width: 1.0635rem;
+	padding-left: 1.15625rem;
+
+}
+
+#settings img {
+	width: 0.75rem;
+	
+}
+
+#notifications-icon {
+	padding-right: 1.125rem;
+}
+
+#connections-icon {
+	padding-left: 2.40625rem;
+	padding-top: 0.5rem;
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
