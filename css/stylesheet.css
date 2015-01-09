@@ -56,6 +56,11 @@ html {
 	 font-size: 16px;
 }
 
+body {
+	background-image: url(css-images/homeBackground.png);
+	background-size: cover;
+}
+
 
 #top-nav {
 	background-color: #0b233b;
