@@ -56,36 +56,35 @@ html {
 	 font-size: 16px;
 }
 
+
 #top-nav {
 	background-color: #0b233b;
-	width:100%;
-	height:8.369%;
-	max-height: 16.738%;
-	min-height:2.76rem;
 	position: fixed;
 	z-index: 9999;
-	
+	width:100%;
 }
 
 #nav-content {
 	display: -webkit-flex;
-	position: relative;
-	left: 6.25%;
-	height:inherit;
-	right: 93.75%;
+	padding-left: 3.125%;
+	padding-right: 3.125%;
 }
 
 #nav-logo {
-	position: relative;
-	top: 0.84375rem;
+	padding-top: 0.84375rem;
 	width: 7.5em;
+}
+
+#search-holder {
+	padding-left: 3.125rem;
+	padding-right: 30.844rem;
+	width: 18.75rem
 }
 
 #search-form {
 	position: relative;
 	top: 0.9375rem;
-	padding-left:3.125rem;
-
+	width:16.375rem;
 }
 
 #search-form > input {
@@ -95,18 +94,17 @@ html {
 	background-repeat: no-repeat;
 	background-position: 1.15625rem;
 	font-family: "Gill Sans MT", Gill Sans, sans-serif;
-	width: 18.75rem;
+	width:inherit;
 	height: 1.6875rem;
 	border-radius: 10rem;
 	border-width: 0px;
 	background-color: rgba(25,80,128,0.4);
 	color: rgba(255,255,255,0.8);
-
 }
 
 #search-form > input[type="text"] {
 	font-size: 80%;
-	position: relative;
+	
 	padding-left: 2.375rem;
 }
 
@@ -123,7 +121,6 @@ html {
 
 
 #profile-holder {
-	width: 30.375rem;
 }
 
 #profile-face {
@@ -135,7 +132,8 @@ html {
 
 #user-name {
 	padding-top: 1.53125rem;
-	padding-left:0.625rem;
+	padding-left:0.75rem;
+	padding-right: 1.15rem;
 	color:white;
 	font-size: 86%;
 	font-weight: 400;
@@ -145,21 +143,26 @@ html {
 .nav-icon img {
 	width: 1.0635rem;
 	padding-left: 1.15625rem;
+	padding-top: 1.3125rem;
+	opacity: 0.5;
 
 }
 
 #settings img {
 	width: 0.75rem;
+	padding-top: 0.5rem;
+	opacity: 0.2;
+	
+	padding-left: 0.125rem;
+	padding-right: 0.0625rem;
 	
 }
 
 #notifications-icon {
-	padding-right: 1.125rem;
+	padding-right: 1rem;
 }
 
 #connections-icon {
-	padding-left: 2.40625rem;
-	padding-top: 0.5rem;
 }
 
 
