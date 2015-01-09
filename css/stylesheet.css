@@ -49,6 +49,10 @@ table {
 
 /* Start of Custom Styles */
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 
 html {
 	 font-family: "Gill Sans", Gill Sans, sans-serif;
@@ -207,6 +211,10 @@ body {
 	margin-bottom: 1.5625rem;
 }
 
+#user-posts > div:hover {
+	cursor: pointer;
+}
+
 
 #first-post {
 	background-color: white;
@@ -216,9 +224,49 @@ body {
 }
 
 #second-post {
+	background: url(css-images/locationIcon.png) 7px;
+	background-size: 0.625rem 0.75rem;
 	background-color: white;
 	float: right;
 	height: 23.1875rem;
+}
+
+#helena-pic {
+	height: inherit;
+	border-top-left-radius: inherit;
+	float: left;
+	border-bottom-left-radius: inherit
+}
+
+
+#location-icon {
+	position: relative; 
+	width: 0.625rem;
+	height: 0.75rem;
+	left: -18.156rem;
+	top:21.90625rem;
+	z-index: 1;
+}
+
+#helena-location {
+	position: relative;
+	top: 21.0625rem;
+	left: -17rem;
+	font-size: 80%;
+	color: white;
+	z-index: 1;
+	font-weight: 300;
+}
+#helena-location:hover {
+	cursor: pointer;
+	color: rgba(255,255,255,0.85);
+}
+
+.gradient {
+	position: relative;
+	top: -371px;
+	z-index: 0;
+	width: 300px;
 }
 
 #third-post {
@@ -259,46 +307,6 @@ body {
 	height: 18.75rem;
 
 }
-
-
-
-/*
-ul#content {
-	padding-left: 2.5rem;
-	padding-top: 5rem;
-	width: 64.6875rem;
-	display: inline-flex;
-	flex-flow: wrap;
-}
-
-ul#content:hover {
-}
-
-
-#content li {
-	width: 30.3125rem;
-	background-color: white;
-	border-radius: 5px;
-}
-
-#post1 {
-	height: 18.75rem;
-}
-
-#post2 {
-	margin-left: 1.5625rem;
-	height: 23.1875rem;
-
-}
-
-#post {
-	margin-left: 1.5625rem;
-	height: 23.1875rem;
-
-}
-
-*/
-
 
 
 
