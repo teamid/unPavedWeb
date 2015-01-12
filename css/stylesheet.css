@@ -197,8 +197,8 @@ body {
 #user-posts {
 	padding-top: 5.25rem;
 
-	margin-left: 2.5rem;
-	margin-right: 2.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
 	width:62.1875rem;
 	overflow: scroll;
 }
